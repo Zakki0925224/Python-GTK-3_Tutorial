@@ -12,6 +12,7 @@ class GridWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title = "Grid Example")
 
+        # グリッドを作成
         grid = Gtk.Grid()
         self.add(grid)
 
